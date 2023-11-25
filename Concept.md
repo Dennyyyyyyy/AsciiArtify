@@ -31,7 +31,7 @@ Containerized Kubernetes, it`s similar to kinD, k3d uses Docker containers as no
 Easier integration as k3d integrates smoothly with Docker and simplifying the setup and management of Kubernetes clusters.
 Support cluster export/import, that allows k3d for exporting and importing clusters, facilitating easy sharing and collaboration. \
 Disadvantages: \
-Still in development and as of my last update in January 2022, k3d is a relatively new tool and although it has gained popularity, some features may still be developing.
+As far as I`m concerned, k3d still in development, it is a relatively new tool and although it has gained popularity, some features may still be developing.
 
 ## Demo 
 Short demonstration the most better tool, as deployment an application «Hello World» on the Kubernetes \ 
