@@ -27,7 +27,7 @@ Slightly less isolation, while efficient, using Docker containers can provide a 
 
 #### K3d:
 Advantages: \
-Containerized Kubernetes, it`s similar to kinD, k3d uses Docker containers as nodes, offering fast and lightweight cluster creation.
+Containerized Kubernetes, it is similar to kinD, k3d uses Docker containers as nodes, offering fast and lightweight cluster creation.
 Easier integration as k3d integrates smoothly with Docker and simplifying the setup and management of Kubernetes clusters.
 Support cluster export/import, that allows k3d for exporting and importing clusters, facilitating easy sharing and collaboration. \
 Disadvantages: \
