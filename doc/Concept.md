@@ -23,7 +23,6 @@ Is a lightweight and versatile tool for creating and managing Kubernetes cluster
 `K3d`. Containerized Kubernetes, it is similar to kinD, k3d uses Docker containers as nodes, offering fast and lightweight cluster creation. Easier integration as k3d integrates smoothly with Docker and simplifying the setup and management of Kubernetes clusters.Support cluster export/import, that allows k3d for exporting and importing clusters, facilitating easy sharing and collaboration. As far as I`m concerned, k3d still in development, it is a relatively new tool and although it has gained popularity, some features may still be developing.
 
 ## Demo 
-Short demonstration the most better tool, as deployment an application «Hello World» on the Kubernetes \ 
-Don`t forget to put here the link for demo
+https://asciinema.org/a/URY6ODR4853wH2ij7RmWqcFfA
 ## Conclusions 
 Minikube, KinD, and k3d all serve as valuable tools for local Kubernetes development, each with its own set of advantages. Minikube is user-friendly and supports cross-platform usage, making it an excellent choice for developers seeking simplicity. KinD offers a lightweight solution by leveraging Docker containers, providing fast cluster provisioning, but with slight compromises in isolation. K3d, while relatively newer, stands out for its ease of integration with Docker, cluster export/import capabilities, and is gaining popularity for its balance between simplicity and efficiency, making it a compelling choice for AsciiArtify recommended PoC tool.
