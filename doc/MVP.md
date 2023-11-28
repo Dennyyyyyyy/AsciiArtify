@@ -1,12 +1,12 @@
 ## Minimum Viable Product (MVP)
 
 `Objective:`
-Create the AsciiArtify app as a minimal viable product with the basic features needed to test the product in order to add additional features, fix bugs, and improve the product based on feedback from users.
+Create the `AsciiArtify` app as a minimal viable product with the basic features needed to test the product in order to add additional features, fix bugs, and improve the product based on feedback from users.
 
 `Documentation:`
 The MVP documentation should be more detailed compared to the PoC. Obviously, this includes defining functional requirements, GUI design, application architecture, testing, scaling strategy, and implementation plan.
 
-So let's check out the AsciiArtify app. First, we forward the ports with the following command
+So let's check out the `AsciiArtify` app. First, we forward the ports with the following command
 
 ```sh
 $ k port-forward -n demo svc/ambassador 8081:80&
@@ -23,7 +23,7 @@ $ curl localhost:8081
 k8sdiy-api:599e1af
 ```
 
-Everything seems to be fine, but ArgoCD doesn't agree with it, so it's most likely an error in the configuration files
+Everything seems to be fine, but `ArgoCD` doesn't agree with it, so it's most likely an error in the configuration files
 
 Solving issues with configuration files.<br>
 After our previous experiments, let's change the network settings of our application again
@@ -42,7 +42,7 @@ cache              ClusterIP      10.43.67.234    <none>        6379/TCP        
 demo-data          ClusterIP      10.43.31.79     <none>        80/TCP                                                  5h2m
 ambassador         **LoadBalancer**   10.43.38.151    <pending>     80:32113/TCP                                            5h2m
 ```
-Go to the ArgoCD interface, where we will see that the health status of the ambassador application is undefined, find and fix it.
+Go to the `ArgoCD` interface, where we will see that the health status of the ambassador application is undefined, find and fix it.
 
 ![img-7](./_img/SCR-20231128-rorw.png)
 
@@ -73,3 +73,5 @@ $ curl -F 'image=@images.png' localhost:8081/img/
 And get our result right in the console
 
 ![img-8](./_img/SCR-20231128-sexq.png)
+
+***Follow the link to watch a short video demonstration*** [CLICK ME](https://asciinema.org/a/jE0RoHyTi0YUTSapDXYmjoVmR)
